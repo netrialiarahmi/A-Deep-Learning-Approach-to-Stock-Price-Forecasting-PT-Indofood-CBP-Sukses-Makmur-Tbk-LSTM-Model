@@ -28,3 +28,6 @@ In the model.compile(optimizer='adam', loss='mean_squared_error') section, we sp
 Next, in the model.fit(x_train, y_train, batch_size=1, epochs=3) section, we train the model by providing training data (x_train and y_train). batch_size determines the number of samples used in each iteration when training the model, while epochs determine how many times the model will see the entire training data. The more epochs, the longer it takes to train the model.
 
  If the data used is larger, we usually use a larger batch_size to speed up the training time.
+
+## Conclusion of this analysis
+The conclusion of this analysis is that the root mean squared error (RMSE) for this prediction model is very small, at 20.424550374348957, indicating that the error of the predictions is very low. This result suggests that the LSTM model with the specified parameters is an effective method for predicting stock prices.
