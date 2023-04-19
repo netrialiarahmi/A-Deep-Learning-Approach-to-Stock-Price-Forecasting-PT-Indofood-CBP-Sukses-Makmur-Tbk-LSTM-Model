@@ -9,7 +9,7 @@ LSTM is also used for time series data analysis, including identifying outliers,
 
 Overall, LSTM is a powerful algorithm that can effectively process complex time series data and provide accurate and reliable prediction results. Therefore, LSTM has become a popular choice for practitioners and researchers who want to analyze and predict time series data.
 
-##There are several reasons why we use this model:
+## There are several reasons why we use this model:
 1. LSTM Model: LSTM is a type of Recurrent Neural Network (RNN) algorithm specifically designed to process time series data. LSTM can handle issues in time series data such as nonlinear trends, repetitive patterns, and long-term interactions between variables in the dataset. Therefore, LSTM is a good choice for predicting time series data.
 
 2. Sequential Model: Keras.Sequential() is an easy way to create a deep learning model by linking a series of layers sequentially. In this case, we create an LSTM model by adding LSTM and Dense layers.
