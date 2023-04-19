@@ -30,4 +30,4 @@ Next, in the model.fit(x_train, y_train, batch_size=1, epochs=3) section, we tra
  If the data used is larger, we usually use a larger batch_size to speed up the training time.
 
 ## Conclusion of this analysis
-The conclusion of this analysis is that the root mean squared error (RMSE) for this prediction model is very small, at 20.424550374348957, indicating that the error of the predictions is very low. This result suggests that the LSTM model with the specified parameters is an effective method for predicting stock prices.
+The conclusion of this analysis is that the root mean squared error (RMSE) for this prediction model is very small, at 1.2976633707682292, indicating that the error of the predictions is very low. This result suggests that the LSTM model with the specified parameters is an effective method for predicting stock prices.
